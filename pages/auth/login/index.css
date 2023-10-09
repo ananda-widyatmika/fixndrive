@@ -1,0 +1,122 @@
+* {
+    font-family: "Open Sans";
+}
+
+body {
+    margin: 0;
+}
+
+main {
+    height: 100vh;
+}
+
+main .container {
+    display: flex;
+    background-color: white;
+    box-sizing: border-box;
+    height: 100%;
+}
+
+.container .login-box {
+    background-color: white;
+    display: flex;
+    flex: 0 50%;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+
+.login-box .login-form-box {
+    background-color: white;
+    padding: 20px;
+}
+
+.login-form-box .login-form-title {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.login-form-title h1 {
+    font-size: xx-large;
+    margin: 0;
+}
+
+.login-form-title p {
+    font-size: medium;
+    margin: 0;
+}
+
+.login-form-box .login-form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 30px 0 0 0;
+}
+
+.login-form .input-field {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.input-field p {
+    margin: 0;
+    font-size: small;
+}
+
+.input-field input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 6px;
+    border-radius: 6px;
+    border: 1px solid gray;
+    font-size: small;
+}
+
+.login-form .submit-field {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.submit-field a {
+    font-size: small;
+    text-decoration: none;
+}
+
+.submit-field input {
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #4C4DDC;
+    color: white;
+    border: none;
+    &:hover {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+
+.login-form-box > p {
+    text-align: center;
+    font-size: small;
+}
+
+.login-form-box > p > a {
+    text-decoration: none;
+}
+
+.container .image-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 0 50%;
+}
+
+.image-box img {
+    box-sizing: border-box;
+    width: 100%;
+}
+
